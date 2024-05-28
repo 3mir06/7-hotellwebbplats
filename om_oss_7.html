@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Välkommen till vårt unika hotell.">
+    <title>Om oss</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.webp" alt="logo">
+        </header>
+        <div class="hammeny">
+            <div class="topnav">
+                <a href="mat_hotell.html" class="active">OM OSS</a>
+                <div id="navbar">
+                    <a href="boka_7.html">BOKA</a>
+                    <a href="hitta_7.html">HITTA</a>
+                    <a href="om_oss_7.html">OM OSS</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div class="desktopmeny">
+                <a href="index.html">VÄLKOMMEN</a>
+                <a href="boka_7.html">BOKA</a>
+                <a href="hitta_7.html">HITTA</a>
+                <a href="om_oss_7.html">OM OSS</a>
+            </div>
+        </div>
+        <main>
+            <div class="infotext">
+                <p>IceGlobe Hotel är en förtrollande vinterdestination där gästerna kan njuta av
+                    komfort och äventyr i en atmosfär av is och snö. Varje igloo-suite är unikt designad
+                    med bekväma sängar och vacker iskonst. Dagarna kan fyllas med spännande aktiviteter som
+                    hundspannsturer och snöskotersafaris, medan kvällarna kan avnjutas med gourmetmiddagar och
+                    avkoppling vid den öppna brasan. För de modiga finns möjligheten att övernatta utomhus under
+                    stjärnhimlen. Oavsett om man söker spänning eller lugn erbjuder Igloo Hotel en minnesvärd upplevelse
+                    i den snöiga
+                    vinterlandskapet.</p>
+            </div>
+
+            <div class="pics">
+                <div class="pic" id="pic1"><img src="igloo_1.webp" alt="Picture of a treehouse"></div>
+                <div class="pic" id="pic2"><img src="igloo_2.webp" alt="Picture of a room"></div>
+                <div class="pic" id="pic3"><img src="igloo_3.webp" alt="Picture of a room"></div>
+            </div>
+
+        </main>
+        <footer>
+            <h3>Kontakt</h3>
+            <p>Hotel IceGlobe | Telefon: +46 71-234-56-78 | Epost: Iceglobehotel@gmail.com | 982 38 Vuoskojärvi,
+                Lappland
+            </p>
+        </footer>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navbar");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+
+</html>
